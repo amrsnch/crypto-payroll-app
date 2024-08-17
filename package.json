@@ -2,6 +2,7 @@
   "name": "crypto-payroll-app",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,10 +10,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^22.4.0",
     "bootstrap": "^5.3.3",
+    "chai": "^5.1.1",
+    "ethers": "^5.7.2",
     "ethersjs": "^0.0.1-security",
+    "hardhat": "^2.22.8",
     "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
   }
 }

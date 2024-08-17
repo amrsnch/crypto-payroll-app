@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\VicHack\\crypto-payroll-app\\contracts\\Payroll.sol": {
+      "lastModificationDate": 1723903262142,
+      "contentHash": "bd57a41f093bfb57f7abf498fc83d864",
+      "sourceName": "contracts/Payroll.sol",
+      "solcConfig": {
+        "version": "0.8.25",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.25"
+      ],
+      "artifacts": [
+        "Payroll"
+      ]
+    }
+  }
+}
